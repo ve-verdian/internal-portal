@@ -41,11 +41,11 @@ Untuk menambah atau mengubah daftar layanan, silakan edit file app/page.js. Cari
 
 ## 🚀 Deployment
 Project ini dikonfigurasi untuk dua environment:
-Vercel: Deployment otomatis setiap kali ada git push ke branch main.
-GitHub Pages: Build otomatis via GitHub Actions yang dikonfigurasi di .github/workflows/deploy.yml.
+- Vercel: Deployment otomatis setiap kali ada git push ke branch main.
+- GitHub Pages: Build otomatis via GitHub Actions yang dikonfigurasi di .github/workflows/deploy.yml.
 
 ## 🛡️ Keamanan
-Portal ini hanya direkomendasikan untuk akses via VPN atau Jaringan Internal.
-Hindari mengekspos domain ini ke publik (Internet) tanpa pengamanan tambahan (seperti Auth/SSO).
+- Portal ini hanya direkomendasikan untuk akses via VPN atau Jaringan Internal.
+- Hindari mengekspos domain ini ke publik (Internet) tanpa pengamanan tambahan (seperti Auth/SSO).
 
 Dikembangkan oleh IT Department.
