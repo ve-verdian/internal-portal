@@ -20,8 +20,8 @@ export default function Home() {
     {
       category: "🏥 Hospital Systems",
       services: [
-        { name: "PACS", desc: "Picture Archiving and Communication System (Radiologi)", url: "http://192.168.105.8:8042", icon: "🩻" },
         { name: "HIS", desc: "Hospital Information System (teraMedik)", url: "http://192.168.105.2", icon: "📋" },
+        { name: "PACS", desc: "Picture Archiving and Communication System (Radiologi)", url: "http://192.168.105.8:8042", icon: "🩻" },
         { name: "DCM Router", desc: "Monitoring Dicom Router Status", url: "http://192.168.105.8:8080/dashboard", icon: "🔄" }
       ]
     },
@@ -29,7 +29,7 @@ export default function Home() {
       category: "📊 Monitoring & Server Health",
       services: [
         { name: "Grafana", desc: "Visualisasi Data & Dashboard Analitik", url: "http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk", icon: "📈" },
-        { name: "Prometheus", desc: "Sistem Monitoring & Time-Series Database", url: "http://192.168.12.29:9090", icon: "🟢" },
+        { name: "Prometheus", desc: "Sistem Monitoring & Time-Series Database", url: "http://192.168.12.24:9090/service-discovery", icon: "🟢" },
         { name: "Uptime Kuma", desc: "Monitoring Status Uptime Service RS", url: "http://192.168.12.5:3001", icon: "❤️" }
       ]
     },
@@ -37,7 +37,7 @@ export default function Home() {
       category: "🔧 Administrator Controls",
       services: [
         { name: "Portainer", desc: "Management Container Docker & Cluster", url: "http://192.168.12.5:9000", icon: "🐳" },
-        { name: "Traefik", desc: "Reverse Proxy & Load Balancer Dashboard", url: "https://auth.rs.lan", icon: "🛡️" },
+        { name: "Traefik", desc: "Reverse Proxy & Load Balancer Dashboard", url: "https://traefik.rs.lan", icon: "🛡️" },
         { name: "Komodo", desc: "Deploy Manage Containers and Compose Stacks", url: "http://192.168.12.5:9120", icon: "🦎" }
       ]
     }
