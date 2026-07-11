@@ -111,14 +111,14 @@ function Home() {
                 {
                     name: "Traefik",
                     desc: "Reverse Proxy & Load Balancer Dashboard",
-                    url: "http://192.168.12.5:8080",
+                    url: "https://auth.rs.lan",
                     icon: "🛡️"
                 },
                 {
-                    name: "Proxmox",
-                    desc: "Virtual Environment & Management VM",
-                    url: "https://192.168.12.16:8006",
-                    icon: "📑"
+                    name: "Komodo",
+                    desc: "Deploy Manage Containers and Compose Stacks",
+                    url: "http://192.168.12.5:9120",
+                    icon: "🦎"
                 }
             ]
         }
@@ -142,7 +142,7 @@ function Home() {
                                     lineNumber: 53,
                                     columnNumber: 13
                                 }, this),
-                                "Brawijaya Hospital"
+                                "Brawijaya Hospital Tangerang"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.js",
