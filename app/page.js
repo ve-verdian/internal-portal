@@ -111,8 +111,9 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
-        <p suppressHydrationWarning>© 2026 IT Department - Brawijaya Hospital Tangerang. All Rights Reserved.</p>
+        <p suppressHydrationWarning>© 2026 IT Department - Brawijaya Hospital Tangerang.</p>
         <p className="mt-1 text-slate-400">Hubungi IT jika mengalami kendala akses.</p>
+        <p className="mt-1 text-slate-400">All Rights Reserved.</p>
       </footer>
 
     </div>
