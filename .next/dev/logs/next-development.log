@@ -1,5 +1,0 @@
-{"timestamp":"00:00:03.860","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:09.632","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:32.967","source":"Server","level":"LOG","message":"✓ Compiled in 92ms"}
-{"timestamp":"00:01:40.729","source":"Server","level":"LOG","message":"✓ Compiled in 156ms"}
-{"timestamp":"00:01:44.050","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
