@@ -21,7 +21,7 @@ export default function Home() {
       category: "🏥 Hospital Systems",
       services: [
         { name: "PACS", desc: "Picture Archiving and Communication System (Radiologi)", url: "http://192.168.105.8:8042", icon: "🩻" },
-        { name: "HIS", desc: "Hospital Information System (Sistem Informasi RS)", url: "http://192.168.105.2", icon: "📋" },
+        { name: "HIS", desc: "Hospital Information System (teraMedik)", url: "http://192.168.105.2", icon: "📋" },
         { name: "DCM Router", desc: "Monitoring Dicom Router Status", url: "http://192.168.105.8:8080/dashboard", icon: "🔄" }
       ]
     },
