@@ -28,7 +28,7 @@ export default function Home() {
     {
       category: "📊 Monitoring & Server Health",
       services: [
-        { name: "Zabbix", desc: "Enterprise-Class Network & Server Monitoring", url: "http://192.168.12.29/zabbix", icon: "📡" },
+        { name: "Zabbix", desc: "Enterprise-Class Network & Server Monitoring", url: "http://192.168.12.24/zabbix", icon: "📡" },
         { name: "Grafana", desc: "Visualisasi Data & Dashboard Analitik", url: "http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk", icon: "📈" },
         { name: "Prometheus", desc: "Sistem Monitoring & Time-Series Database", url: "http://192.168.12.24:9090/service-discovery", icon: "🟢" },
         { name: "Uptime Kuma", desc: "Monitoring Status Uptime Service RS", url: "http://192.168.12.5:3001", icon: "❤️" }
