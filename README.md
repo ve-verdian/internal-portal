@@ -1,6 +1,5 @@
-# Brawijaya Hospital Tangerang | Internal Service Portal
-
-Portal layanan internal terpusat untuk **Brawijaya Hospital Tangerang (BHT)**. Aplikasi ini dirancang untuk memudahkan staf IT, dokter, dan staf operasional dalam mengakses berbagai layanan internal rumah sakit seperti File Sharing, Sistem Informasi Rumah Sakit, Monitoring, dan infrastruktur IT tanpa perlu menghafal alamat IP/port masing-masing layanan.
+# Internal Service Portal
+Portal layanan internal ini dirancang untuk memudahkan staf IT, dokter, dan staf operasional dalam mengakses berbagai layanan internal rumah sakit seperti File Sharing, Sistem Informasi Rumah Sakit, Monitoring, dan infrastruktur IT tanpa perlu menghafal alamat IP/port masing-masing layanan.
 
 ## 🚀 Fitur Utama
 - **Centralized Access**: Akses seluruh sistem IT RS dalam satu dashboard.
@@ -16,7 +15,6 @@ Portal layanan internal terpusat untuk **Brawijaya Hospital Tangerang (BHT)**. A
 - **Deployment**: [Vercel](https://vercel.com/) & [GitHub Pages](https://pages.github.com/)
 
 ## 📦 Setup Lokal
-
 Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) di komputer Anda.
 
 1. **Clone repository ini**:
@@ -47,7 +45,7 @@ Vercel: Deployment otomatis setiap kali ada git push ke branch main.
 GitHub Pages: Build otomatis via GitHub Actions yang dikonfigurasi di .github/workflows/deploy.yml.
 
 ## 🛡️ Keamanan
-Portal ini hanya direkomendasikan untuk akses via VPN atau Jaringan Internal Brawijaya Hospital Tangerang.
+Portal ini hanya direkomendasikan untuk akses via VPN atau Jaringan Internal.
 Hindari mengekspos domain ini ke publik (Internet) tanpa pengamanan tambahan (seperti Auth/SSO).
 
-Dikembangkan oleh IT Department - Brawijaya Hospital Tangerang.
+Dikembangkan oleh IT Department.
