@@ -39,8 +39,8 @@ export default function Home() {
     {
       category: "🔧 Administrator Controls",
       services: [
-        { name: "Portainer", desc: "Management Container Docker & Cluster", url: "http://192.168.12.5:9000", icon: "🐳" },
         { name: "Traefik", desc: "Reverse Proxy & Load Balancer Dashboard", url: "https://traefik.rs.lan", icon: "🛡️" },
+        { name: "Portainer", desc: "Management Container Docker & Cluster", url: "http://192.168.12.5:9000", icon: "🐳" },
         { name: "Komodo", desc: "Deploy Manage Containers & Compose Stacks", url: "http://192.168.12.5:9120", icon: "🦎" }
       ]
     }
