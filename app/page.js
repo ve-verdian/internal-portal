@@ -56,7 +56,9 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col justify-between">
+    // <div className="min-h-screen bg-slate-50 flex flex-col justify-between">
+      // 1. Mengunci tinggi layar penuh (h-screen) dan melarang scroll di body utama
+    <div className="h-screen flex flex-col justify-between overflow-hidden bg-slate-50">
       
       {/* HEADER BAR - Brawijaya Theme (Purple & Pink) */}
       <header className="bg-gradient-to-r from-purple-800 to-pink-600 text-white shadow-md py-8 px-4 text-center">
