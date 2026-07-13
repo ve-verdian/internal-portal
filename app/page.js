@@ -56,10 +56,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="h-screen bg-slate-50 flex flex-col justify-between overflow-hidden">
+    <div className="min-h-screen bg-slate-50 flex flex-col justify-between">
       
-      {/* HEADER BAR - Brawijaya Theme (Purple & Pink) - Ditambahkan flex-shrink-0 */}
-      <header className="bg-gradient-to-r from-purple-800 to-pink-600 text-white shadow-md py-8 px-4 text-center flex-shrink-0">
+      {/* HEADER BAR - Brawijaya Theme (Purple & Pink) */}
+      <header className="bg-gradient-to-r from-purple-800 to-pink-600 text-white shadow-md py-8 px-4 text-center">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight flex justify-center items-center gap-3">
             <span className="bg-white/20 p-2 rounded-lg backdrop-blur-sm">🏥</span> 
@@ -72,9 +72,9 @@ export default function Home() {
         </div>
       </header>
 
-      {/* MAIN CONTENT - Diubah agar bisa scroll mandiri */}
-      <main className="w-full mx-auto px-4 py-10 flex-grow overflow-y-auto">
-        <div className="max-w-6xl mx-auto space-y-12">
+      {/* MAIN CONTENT */}
+      <main className="max-w-6xl w-full mx-auto px-4 py-10 flex-grow">
+        <div className="space-y-12">
           {servicesData.map((section, idx) => (
             <div key={idx} className="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
               {/* Category Title */}
@@ -108,6 +108,9 @@ export default function Home() {
                         <p className="text-xs text-slate-500 mt-1 line-clamp-2">
                           {service.desc}
                         </p>
+                        {/* <span className="inline-block text-[10px] font-mono bg-slate-100 text-slate-600 px-2 py-0.5 rounded mt-3 max-w-full break-all">
+                          {service.url.replace('http://', '').replace('https://', '')}
+                        </span> */}
                       </div>
                     </div>
                   </a>
@@ -118,8 +121,8 @@ export default function Home() {
         </div>
       </main>
 
-      {/* FOOTER - Ditambahkan flex-shrink-0 */}
-      <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 flex-shrink-0">
+      {/* FOOTER */}
+      <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
         <p suppressHydrationWarning>© 2026 IT Department - Brawijaya Hospital Tangerang.</p>
         <p className="mt-1 text-slate-400">Hubungi IT jika mengalami kendala akses.</p>
         <p className="mt-1 text-slate-400">All Rights Reserved.</p>
