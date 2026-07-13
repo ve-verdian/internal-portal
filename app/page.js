@@ -4,10 +4,11 @@ export default function Home() {
   // Data Service Internal - Silakan ubah URL sesuai dengan server Anda
   const servicesData = [
     {
-      category: "📁 File Sharing",
+      category: "🗂️ File Sharing",
       services: [
         { name: "Nextcloud", desc: "Cloud Storage & Kolaborasi Dokumen", url: "http://192.168.12.29:8081", icon: "☁️" },
-        { name: "Seafile", desc: "File Syncing & Sharing Kecepatan Tinggi", url: "http://192.168.12.6:8080", icon: "📦" }
+        { name: "Seafile", desc: "File Syncing & Sharing Kecepatan Tinggi", url: "http://192.168.12.6:8080", icon: "📦" },
+        { name: "Sidokar", desc: "Sistem Informasi Dokumen Akreditasi KARS", url: "http://192.168.105.8", icon: "📑" },
       ]
     },
     {
