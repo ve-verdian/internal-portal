@@ -40,6 +40,14 @@ export default function Home() {
         { name: "Traefik", desc: "Reverse Proxy & Load Balancer Dashboard", url: "https://traefik.rs.lan", icon: "🛡️" },
         { name: "Komodo", desc: "Deploy Manage Containers and Compose Stacks", url: "http://192.168.12.5:9120", icon: "🦎" }
       ]
+    },
+    {
+      category: "🗄️ Proxmox VE",
+      services: [
+        { name: "SRV-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.12.16:8006/#v1:0:18:4:::::::", icon: "⚖️" },
+        { name: "SRV-HT-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.12.10:8006/#v1:0:18:4:::::::", icon: "⚖️" },
+        { name: "SRV-PVE-NEW", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.105.4:8006/#v1:0:18:4:::::::", icon: "⚖️" }
+      ]
     }
   ];
 
