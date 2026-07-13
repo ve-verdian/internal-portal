@@ -29,28 +29,28 @@ export default function Home() {
       category: "📊 Monitoring & Server Health",
       services: [
         { name: "Zabbix", desc: "Enterprise-Class Network & Server Monitoring", url: "http://192.168.12.24/zabbix", icon: "📡" },
-        { name: "Grafana - Ubuntu", desc: "Visualisasi Data & Dashboard Analitik", url: "http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk", icon: "📈" },
-        { name: "Grafana - Debian", desc: "Visualisasi Data & Dashboard Analitik", url: "http://192.168.12.29:3000/", icon: "📈" },
-        { name: "Prometheus", desc: "Sistem Monitoring & Time-Series Database", url: "http://192.168.12.24:9090/service-discovery", icon: "🟢" },
+        { name: "Grafana Docker", desc: "Visualisasi Data & Dashboard Analitik", url: "http://192.168.12.24:3000/d/bpjs-monitoring-v4/monitoring-api-bpjs?kiosk", icon: "📈" },
+        { name: "Grafana non-Docker", desc: "Visualisasi Data & Dashboard Analitik", url: "http://192.168.12.29:3000", icon: "📈" },
+        { name: "Prometheus", desc: "Sistem Monitoring & Time-Series Database", url: "http://prometheus.lan/service-discovery", icon: "🟢" },
         { name: "Uptime Kuma", desc: "Monitoring Status Uptime Server", url: "http://192.168.12.5:3001/status/server-monitoring", icon: "❤️" },
-        { name: "Uptime Kuma", desc: "Monitoring Status Uptime ISP", url: 
-"http://192.168.12.5:3001/status/isp-monitoring", icon: "❤️" }
+        { name: "Uptime Kuma", desc: "Monitoring Status Uptime ISP", url: "http://192.168.12.5:3001/status/isp-monitoring", icon: "❤️" }
       ]
     },
     {
       category: "🔧 Administrator Controls",
       services: [
         { name: "Traefik", desc: "Reverse Proxy & Load Balancer Dashboard", url: "https://traefik.rs.lan", icon: "🛡️" },
-        { name: "Portainer", desc: "Management Container Docker & Cluster", url: "http://192.168.12.5:9000", icon: "🐳" },
-        { name: "Komodo", desc: "Deploy Manage Containers & Compose Stacks", url: "http://192.168.12.5:9120", icon: "🦎" }
+        { name: "Portainer", desc: "Management Container Docker & Cluster", url: "http://portainer.lan", icon: "🐳" },
+        { name: "Komodo", desc: "Deploy Manage Containers & Compose Stacks", url: "http://komodo.lan", icon: "🦎" },
+        { name: "HikCentral AC", desc: "Management System for Hikvision Access Control", url: "https://192.168.12.12:4433", icon: "🪪" }
       ]
     },
     {
       category: "🗄️ Proxmox VE",
       services: [
-        { name: "SRV-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.12.16:8006/#v1:0:18:4:::::::", icon: "⚖️" },
-        { name: "SRV-BHT-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.12.10:8006/#v1:0:18:4:::::::", icon: "⚖️" },
-        { name: "SRV-PVE-NEW", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.105.4:8006/#v1:0:18:4:::::::", icon: "⚖️" }
+        { name: "SRV-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://srv-pve.lan/#v1:0:18:4:::::::", icon: "⚖️" },
+        { name: "SRV-BHT-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://srv-bht-pve.lan/#v1:0:18:4:::::::", icon: "⚖️" },
+        { name: "SRV-PVE-NEW", desc: "Proxmox Virtual Environment Dashboard", url: "https://srv-pve-new.lan/#v1:0:18:4:::::::", icon: "⚖️" }
       ]
     }
   ];
