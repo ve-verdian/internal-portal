@@ -48,7 +48,7 @@ export default function Home() {
       category: "🗄️ Proxmox VE",
       services: [
         { name: "SRV-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.12.16:8006/#v1:0:18:4:::::::", icon: "⚖️" },
-        { name: "SRV-HT-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.12.10:8006/#v1:0:18:4:::::::", icon: "⚖️" },
+        { name: "SRV-BHT-PVE", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.12.10:8006/#v1:0:18:4:::::::", icon: "⚖️" },
         { name: "SRV-PVE-NEW", desc: "Proxmox Virtual Environment Dashboard", url: "https://192.168.105.4:8006/#v1:0:18:4:::::::", icon: "⚖️" }
       ]
     }
