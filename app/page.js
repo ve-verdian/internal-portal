@@ -6,7 +6,7 @@ export default function Home() {
     {
       category: "🗂️ File Sharing",
       services: [
-        { name: "Nextcloud", desc: "Cloud Storage & Kolaborasi Dokumen", url: "http://192.168.12.29:8081", icon: "☁️" },
+        { name: "Nextcloud", desc: "Cloud Storage & Kolaborasi Dokumen", url: "http://192.168.105.9:8081", icon: "☁️" },
         { name: "Sidokar", desc: "Sistem Informasi Dokumen Akreditasi KARS", url: "http://192.168.105.8", icon: "📑" },
       ]
     },
